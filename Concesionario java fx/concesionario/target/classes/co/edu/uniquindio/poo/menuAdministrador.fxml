@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E0F7FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewController.PrimaryViewController">
+   <children>
+      <Label layoutX="105.0" layoutY="14.0" prefHeight="66.0" prefWidth="391.0" text="MENU ADMINISTRADOR">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="19.0" layoutY="80.0" prefHeight="6.0" prefWidth="563.0" style="-fx-background-color: #000000;" />
+      <Label layoutX="56.0" layoutY="130.0" text="GESTIONAR EMPLEADOS:">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="215.0" text="GESTIONAR REPORTES:">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnEmpleados" layoutX="300.0" layoutY="125.0" mnemonicParsing="false" onAction="#openGestionEmpleados" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="EMPLEADOS">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnReportes" layoutX="300.0" layoutY="194.0" mnemonicParsing="false" onAction="#openGestionReportes" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="REPORTES">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="610.0" style="-fx-background-color: #E0F7FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewController.PrimaryViewController">
+   <children>
+      <Label layoutX="14.0" layoutY="135.0" prefHeight="57.0" prefWidth="168.0" text="Eres un :">
+         <font>
+            <Font name="Comic Sans MS" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnEmpleado" layoutX="182.0" layoutY="134.0" mnemonicParsing="false" onAction="#openMenuEmpleado" prefHeight="57.0" prefWidth="139.0" style="-fx-background-color: #FFFFFF;" text="Empleado">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdministrador" layoutX="343.0" layoutY="134.0" mnemonicParsing="false" onAction="#openMenuAdministrador" prefHeight="57.0" prefWidth="156.0" style="-fx-background-color: #FFFFFF;" text="Administrador">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="117.0" layoutY="25.0" prefHeight="57.0" prefWidth="347.0" text="Cargo correspondiente">
+         <font>
+            <Font name="Comic Sans MS" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

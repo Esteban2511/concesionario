@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="686.0" style="-fx-background-color: #E0F7FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.viewController.PrimaryViewController">
+   <children>
+      <Label layoutX="168.0" layoutY="20.0" prefHeight="66.0" prefWidth="350.0" text="GESTION TRANSACCION">
+         <font>
+            <Font name="Comic Sans MS" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="125.0" text="GESTION ALQUILER :">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="191.0" text="GESTION COMPRA :">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="256.0" text="GESTION VENTA :">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAlquiler" layoutX="328.0" layoutY="116.0" mnemonicParsing="false" onAction="#openGestionAlquiler" prefHeight="41.0" prefWidth="165.0" style="-fx-background-color: #FFFFFF;" text="ALQUILER" />
+      <Button fx:id="btnCompra" layoutX="328.0" layoutY="181.0" mnemonicParsing="false" onAction="#openGestionCompra" prefHeight="41.0" prefWidth="165.0" style="-fx-background-color: #FFFFFF;" text="COMPRA" />
+      <Button fx:id="btnVenta" layoutX="328.0" layoutY="247.0" mnemonicParsing="false" onAction="#openGestionVenta" prefHeight="41.0" prefWidth="165.0" style="-fx-background-color: #FFFFFF;" text="VENTA " />
+   </children>
+</AnchorPane>
